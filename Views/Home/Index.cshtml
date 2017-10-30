@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lost In The Woods</title>
+</head>
+<body>
+    <h1>Lost in the Woods</h1>
+    <p>List of Local Hiking Trails</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Trail Name</h3>
+            </div>
+            <div class="col-md-4">
+                <h3>Trail Length</h3>
+            </div>
+            <div class="col-md-4">
+                <h3>Elevation Change</h3>
+            </div>
+        </div>
+        @{
+        
+            foreach (var trail in ViewBag.trails)
+            {
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="/Trails/@trail.id">@trail.name</a>
+                    </div>
+                    <div class="col-md-4">
+                        <span>@trail.length</span>
+                    </div>
+                    <div class="col-md-4">
+                        <span>@trail.elevationChange feet</span>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+
+    <a href="/NewTrail"><button class="btn-success">Add a new Trail</button></a>
+</body>
+</html>

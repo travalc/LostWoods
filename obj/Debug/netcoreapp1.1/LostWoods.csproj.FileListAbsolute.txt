@@ -1,0 +1,8 @@
+/Users/travisalcantara/Desktop/Dojo/C#/LostWoods/bin/Debug/netcoreapp1.1/LostWoods.deps.json
+/Users/travisalcantara/Desktop/Dojo/C#/LostWoods/bin/Debug/netcoreapp1.1/LostWoods.runtimeconfig.json
+/Users/travisalcantara/Desktop/Dojo/C#/LostWoods/bin/Debug/netcoreapp1.1/LostWoods.runtimeconfig.dev.json
+/Users/travisalcantara/Desktop/Dojo/C#/LostWoods/bin/Debug/netcoreapp1.1/LostWoods.dll
+/Users/travisalcantara/Desktop/Dojo/C#/LostWoods/bin/Debug/netcoreapp1.1/LostWoods.pdb
+/Users/travisalcantara/Desktop/Dojo/C#/LostWoods/obj/Debug/netcoreapp1.1/LostWoods.AssemblyInfo.cs
+/Users/travisalcantara/Desktop/Dojo/C#/LostWoods/obj/Debug/netcoreapp1.1/LostWoods.dll
+/Users/travisalcantara/Desktop/Dojo/C#/LostWoods/obj/Debug/netcoreapp1.1/LostWoods.pdb

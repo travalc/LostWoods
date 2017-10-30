@@ -1,0 +1,22 @@
+@model LostWoods.Models.Trail
+<form asp-controller="Home" asp-action="Trail" method="POST">
+    <span asp-validation-for="name"></span>
+    <label asp-for="name">Trail Name:</label>
+    <input asp-for="name" class="form-control"/>
+    <span asp-validation-for="description"></span>
+    <label asp-for="description">Description:</label>
+    <textarea id="" cols="30" rows="10" asp-for="description" class="form-control"></textarea>
+    <span asp-validation-for="length"></span>
+    <label asp-for="length">Trail Length:</label>
+    <input asp-for="length" class="form-control"/>
+    <span asp-validation-for="elevationChange"></span>
+    <label asp-for="elevationChange">Elevation Change</label>
+    <input asp-for="elevationChange" class="form-control"/>
+    <span asp-validation-for="latitude"></span>
+    <label asp-for="latitude">Latitude:</label>
+    <input asp-for="latitude" class="form-control"/>
+    <span asp-validation-for="longitude"></span>
+    <label asp-for="longitude">Longitude:</label>
+    <input asp-for="longitude" class="form-control"/>
+    <input type="submit" value="Create Record!" class="btn-primary">
+</form>

@@ -1,0 +1,7 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/travisalcantara/.nuget/packages"
+    ]
+  }
+}
